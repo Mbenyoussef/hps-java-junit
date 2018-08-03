@@ -122,6 +122,7 @@ public class Actionwords {
     }
 	
 	public void aNotificationAboutDescalingIsDisplayed(){
+		//Checking if descaling is needed on the coffee machine
 		assertTrue(sut.isDescalingNeeded());
 	}
 }
